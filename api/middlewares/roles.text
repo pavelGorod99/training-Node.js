@@ -1,0 +1,19 @@
+[
+    {
+        "role":"admin",
+        "scopes": {
+            "tasks": [
+                "create",
+                "getById"
+            ]
+        }
+    },
+    {
+        "role":"customer",
+        "scopes": {
+            "tasks": [
+                "getById"
+            ]
+        }
+    }
+]
